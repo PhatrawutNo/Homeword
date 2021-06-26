@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{padding: 0;margin: 0; height: 200vh;}
+        .big{width: 50%;height: 50%;}
+        .small{width: 25%; height: 25%;}
+        .inside{width: 10%; height: 10%;}
+        .absolute{position: absolute;}
+        .relative{position: relative;}
+        .flxed{position: fixed;}
+        .top{top:0}
+        .left{left: 0;}
+        .right{right: 0;}
+        .bottom{bottom: 0;}
+        .center{left: 50%;top: 50%; transform: translate(-50%,-50%);}
+        .red{background-color: red;}
+        .green{background-color: green;}
+        .blue{background-color: blue;}
+        .yellow{background-color: yellow;}
+        .pink{background-color: deeppink;}
+        .white{background-color: white;}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="red small left top absolute"></div>
+    <div class="green small right top absolute"></div>
+    <div class="blue small left bottom absolute"></div>
+    <div class="yellow small right bottom absolute"></div>
+
+    <div class="center big white flxed">
+        <div class="red inside left top absolute"></div>
+    <div class="green inside right top absolute"></div>
+    <div class="blue inside left bottom absolute"></div>
+    <div class="yellow inside right bottom absolute"></div>
+    <div class="pink inside center absolute"></div>
+    
+    </div>
+
+
+</body>
+</html>
